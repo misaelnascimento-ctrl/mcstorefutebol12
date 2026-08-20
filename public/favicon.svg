@@ -1,0 +1,53 @@
+<svg width="64" height="64" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favGoldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF2A1" />
+      <stop offset="25%" stopColor="#E5B232" />
+      <stop offset="50%" stopColor="#966C15" />
+      <stop offset="75%" stopColor="#FAD355" />
+      <stop offset="100%" stopColor="#8A5B0B" />
+    </linearGradient>
+    <linearGradient id="favShieldGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FDE68A" />
+      <stop offset="30%" stopColor="#D97706" />
+      <stop offset="70%" stopColor="#92400E" />
+      <stop offset="100%" stopColor="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="favGoldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFF8D6" />
+      <stop offset="50%" stopColor="#EAB308" />
+      <stop offset="100%" stopColor="#854D0E" />
+    </linearGradient>
+    <radialGradient id="favDarkBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stopColor="#1E293B" />
+      <stop offset="60%" stopColor="#0F172A" />
+      <stop offset="100%" stopColor="#050811" />
+    </radialGradient>
+    <radialGradient id="favBallShade" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stopColor="#FFFFFF" />
+      <stop offset="60%" stopColor="#CBD5E1" />
+      <stop offset="100%" stopColor="#475569" />
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#favDarkBg)" stroke="#0F172A" strokeWidth="2" />
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#favGoldRim)" strokeWidth="4.5" />
+  <path
+    d="M100 24 C135 24, 168 34, 168 56 C168 118, 142 156, 100 178 C58 156, 32 118, 32 56 C32 34, 65 24, 100 24 Z"
+    fill="#090D16"
+    stroke="url(#favShieldGold)"
+    strokeWidth="5"
+  />
+  <circle cx="100" cy="58" r="30" fill="url(#favBallShade)" stroke="#0F172A" strokeWidth="1.5" />
+  <g fill="#0F172A" stroke="#334155" strokeWidth="1">
+    <polygon points="100,50 108,56 105,65 95,65 92,56" />
+    <polygon points="96,29 104,29 107,38 100,42 93,38" />
+  </g>
+  <polygon points="18,110 182,102 184,142 16,146" fill="#030712" stroke="url(#favGoldRim)" strokeWidth="1.5" />
+  <g transform="translate(100, 126) skewX(-7)">
+    <text x="-48" y="0" textAnchor="middle" fill="#FFFFFF" stroke="#000" strokeWidth="2" fontSize="24" fontWeight="900" fontFamily="sans-serif">MC</text>
+    <text x="20" y="0" textAnchor="middle" fill="url(#favGoldText)" stroke="#000" strokeWidth="2" fontSize="24" fontWeight="900" fontFamily="sans-serif">STORE</text>
+  </g>
+  <g transform="translate(100, 148)">
+    <text x="0" y="0" textAnchor="middle" fill="#FFFFFF" fontSize="10" fontWeight="900" fontFamily="sans-serif" letterSpacing="3">FUTEBOL</text>
+  </g>
+</svg>

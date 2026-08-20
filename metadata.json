@@ -1,0 +1,8 @@
+{
+  "name": "MC Store Futebol B2B",
+  "description": "Plataforma e-commerce B2B atacadista de camisas de futebol com grade de pedido rápido, faixas de preços dinâmicos, checkout Mercado Pago e painéis Admin e Revendedor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
